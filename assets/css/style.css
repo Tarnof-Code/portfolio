@@ -1,0 +1,82 @@
+.listSkills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.listSkills div {
+    background-color: #ffab07;
+    border-radius: 15px;
+    margin: 5px 0 5px 5px;
+    padding: 10px 15px;
+    text-shadow: 4px 3px 4px rgba(0,0,0,0.35);
+}
+
+.listSkills div:hover {
+    background-color: #ffc042;
+}
+
+.joindre {
+    display:flex;
+    flex-direction:column;
+    margin-top: 15px;
+}
+
+.joindre a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 400ms;
+}
+
+.joindre a:hover {
+    color: #ffab07;
+    transform: scale(1.14);
+}
+
+.savoirplus {
+    transform: scale(1);
+    transition: 800ms;
+}
+
+.savoirplus:hover {
+    transform: scale(1.1);
+}
+.devweb {
+    animation-name: devBouge;
+    animation-duration: 3.5s;  
+}
+
+.project-list {
+    justify-content: center;
+}
+
+@keyframes devBouge {
+    0% {transform: translate(5000px);}
+    50% {transform: translate(4900px);}
+    100% {transform: translate(0px);}
+    
+}
+
+@media screen and (max-width: 768px) {
+    .listSkills {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .devweb {
+        font-size: 30px;  
+    }
+
+    .intro-heading {
+        animation-name: devbouge;
+        animation-duration: 3.5s; 
+    }
+
+    @keyframes devbouge {
+        0% {transform: translate(500px);}
+        50% {transform: translate(490px);}
+        100% {transform: translate(0px);}  
+    }
+}
