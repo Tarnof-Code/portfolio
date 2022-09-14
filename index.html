@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Calligraffitti&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    
 </head>
 
 <body id="accueil" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
@@ -28,7 +29,7 @@
                 <ul class="navbar-nav ms-auto text-uppercase">
                     <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
                     <li class="nav-item"><a class="nav-link" href="#apropos">Qui je suis</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Mes projets</a></li>
                     <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
@@ -78,44 +79,73 @@
             </div>
         </div>
     </section>
-    <section class="bg-light" id="portfolio">
+
+
+    <section  id="portfolio">
         <div class="container">
             <div class="row ">
                 <div class="col-lg-12 text-center" style="margin-bottom:50px">
-                    <h2 class="text-uppercase section-heading">Projets</h2>     
+                    <h2 class="text-uppercase section-heading">Mes projets</h2>     
                 </div>
-                        <div style="width: 370px; height: 550px; background-color: black;padding-top: 20px;">
-                            <video width="350" height="500" controls autoplay>
-                                <source src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1662979601/D%C3%A9mo_Life_hb4ntf.mp4" type=video/mp4>
-                            </video>
-                        </div>
             </div>
+            
+                <div id="overlay1" onclick="off1()">
+                    <video class="video" width="400" height="600" controls autoplay>
+                     <source src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1663149567/Life_D%C3%A9mo_jr5xyp.mp4" type=video/mp4>
+                    </video>
+                </div>             
+
+                <div id="overlay2" onclick="off2()">
+                    <video class="video" width="400" height="600" controls autoplay>
+                     <source src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1663149567/Life_D%C3%A9mo_jr5xyp.mp4" type=video/mp4>
+                    </video>
+                </div>        
+
             <div class="row project-list">
+
                 <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link"
-                        href="https://piedagnellaura.github.io/">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><p>Projet de fin de formation développée en 10 jours</p></div>
-                        </div>
+                    <a class="portfolio-link"                     
+                        target="_blank"
+                        onclick="on1()">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <p>Voir la démo</p>
+                                </div>
+                            </div>
                         <img class="img-fluid" src="assets/img/portfolio/Logo-Life.png" width="400" >
                     </a>
                     <div class="portfolio-caption" >
-                        <h4>LIFE</h4>
-                        <p class="text-muted">Application mobile réalisée en React Native</p>
+                        <h4>LIFE</h4>                                  
+                        <p class="text-muted">Application mobile pour ne plus jamais rater un vaccin ou un examen de santé</p>  
+                        <a class="portfolio-link"
+                        target="_blank"
+                        href="https://github.com/Tarnof-Code/lifeFront/">
+                            <div class="portfolio-hover-content">
+                                 <p>Voir le code</p>
+                            </div>                 
+                        </a>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link"
-                        href="https://piedagnellaura.github.io/calculatrice/">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><p>Découvrir</p></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/calculatrice.png" width="400"
-                            height="203">
+        
+                <div class="col-sm-6 col-md-4 portfolio-item">
+                    <a class="portfolio-link"                     
+                        target="_blank"
+                        onclick="on2()">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <p>Voir la démo</p>
+                                </div>
+                            </div>
+                        <img class="img-fluid" src="assets/img/portfolio/ecranAccueil.jpg" width="400" >
                     </a>
-                    <div class="portfolio-caption">
-                        <h4>Calculatrice</h4>
-                        <p class="text-muted">Réalisé en Javascript</p>
+                    <div class="portfolio-caption" >
+                        <h4>ENJOY</h4>  
+                        <p class="text-muted">Application mobile pour la gestion des colonies de vacances</p>                                
                     </div>
                 </div>
+
+
+
                 <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link"
                         href="https://piedagnellaura.github.io/jeu-du-morpion/">
                         <div class="portfolio-hover">
@@ -283,6 +313,7 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/agency.js"></script>
     <script src="assets/js/presentation.js"></script>
+    <script src="assets/js/overlay.js"></script>
 </body>
 
 </html>
