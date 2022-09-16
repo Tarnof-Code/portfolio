@@ -68,11 +68,22 @@
                           <div class="text-center-sm">
                             <h2 class="text-uppercase section-heading " style="margin-bottom: 30px;">Qui je suis</h2>
                           </div>
-                            <p ><span style="color: rgb(134, 142, 150);">Bonjour,&nbsp; je
-                                    m'appelle Nicolas et je suis en reconversion dans le développement web depuis Septembre 2021. 
-                                    Après avoir réalisé plusieurs projets de formation et projets personnels,  
-                                  je recherche actuellement un poste de développeur web ou mobile. <br><br>
-                                Vous retrouverez ici quelques-uns de ces projets.</span></p>
+                            <p ><span style="color: rgb(134, 142, 150);">Bonjour,&nbsp; je m’appelle Nicolas, j’ai 41 ans 
+                                et j’attaque aujourd’hui ma 4e vie professionnelle ! Après avoir été ingénieur du son, directeur 
+                                d’accueils de loisirs et hypnothérapeute, je suis en reconversion dans le développement web et mobile 
+                                depuis septembre 2021.
+                                <br><br>
+                                J’ai décidé d’intégrer la formation intensive (Bootcamp) de La Capsule en mars 2021 afin de monter en 
+                                compétences.
+                                 <br><br>
+                                 Vous retrouverez ici quelques projets que j’ai développés.
+                                 <br><br>
+                                 Vous pouvez télécharger mon CV au format PDF :<br>
+                                 <a href="assets/img/portfolio/CV_Nicolas TATARINOFF_sept_2022.pdf" download>
+                                    <i class="fa-solid fa-download"></i> 
+                                    En cliquant ici
+                                </a>
+                                </span></p>
                         </div>
                     </div>
                 </div>
@@ -89,118 +100,266 @@
                 </div>
             </div>
             
-                <div id="overlay1" onclick="off1()">
-                    <video class="video" width="400" height="600" controls autoplay>
-                     <source src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1663149567/Life_D%C3%A9mo_jr5xyp.mp4" type=video/mp4>
-                    </video>
-                </div>             
+            <!-- Overlays video -->
+                     <!--Life -->
+                        <div id="overlayVideo1" onclick="offVideo1()">
+                            <video class="video" width="400" height="600" controls>
+                            <source src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1663149567/Life_D%C3%A9mo_jr5xyp.mp4" type=video/mp4>
+                            </video>
+                        </div>             
+                    <!--Life -->        
+                    <!--Enjoy -->
+                        <div id="overlayVideo2" onclick="offVideo2()">
+                            <video class="video" width="400" height="600" controls>
+                            <source src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1663231939/D%C3%A9mo_Enjoy_kobtm5.mp4" type=video/mp4>
+                            </video>
+                        </div> 
+                    <!--Enjoy -->   
+            <!-- Overlays video -->
 
-                <div id="overlay2" onclick="off2()">
-                    <video class="video" width="400" height="600" controls autoplay>
-                     <source src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1663149567/Life_D%C3%A9mo_jr5xyp.mp4" type=video/mp4>
-                    </video>
+
+            <!-- Overlays En savoir plus -->
+                <!--Life -->           
+                    <div id="overlayMore1" onclick="offMore1()">
+                        <div class="moreContent">
+                            <h3 style="text-align: center; margin-bottom: 20px;">Life</h3>
+                            <li>Application mobile</li>
+                            <li>Projet de fin de formation</li>
+                            <li>Equipe de 4 personnes</li>
+                            <li>Réalisée en 10 jours</li>
+                            <li>React Native</li>
+                            <li>Express.JS</li>
+                            <li>Mongo DB</li>
+                            <a href="https://github.com/Tarnof-Code/lifeFront"
+                            target="_blank">
+                            <p style="text-align:center;margin-top: 20px;font-size: 20px;" >Voir le code</p>
+                            </a>
+                        </div>
+                    </div>        
+                <!--Life --> 
+                <!--Enjoy -->           
+                <div id="overlayMore2" onclick="offMore2()">
+                    <div class="moreContent">
+                        <h3 style="text-align: center; margin-bottom: 20px;">Enjoy</h3>
+                        <li>Application mobile</li>
+                        <li>Projet personnel</li>
+                        <li>React Native</li>
+                        <li>Express.JS</li>                       
+                        <li>Google Sheets API</li>
+                    </div>
                 </div>        
+                <!--portfolio --> 
+                    <div id="overlayMore3" onclick="offMore3()">
+                        <div class="moreContent">
+                            <h3 style="text-align: center; margin-bottom: 20px;">Mon portfolio</h3>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap</li>                       
+                        </div>
+                    </div>        
+                <!--portfolio -->
+                <!--bikeShop --> 
+                    <div id="overlayMore4" onclick="offMore4()">
+                        <div class="moreContent">
+                            <h3 style="text-align: center; margin-bottom: 20px;">Bike Shop</h3>
+                            <li>Projet réalisé pendant ma formation</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Express.JS</li>
+                            <li>Bootstrap</li>   
+                            <li>Stripe</li>
+                            <a href="https://github.com/Tarnof-Code/bikeShop"
+                            target="_blank">
+                            <p style="text-align:center;margin-top: 20px;font-size: 20px;" >Voir le code</p>
+                            </a>                    
+                        </div>
+                    </div>        
+                <!--bikeShop --> 
+                <!--myMoviz --> 
+                    <div id="overlayMore5" onclick="offMore5()">
+                        <div class="moreContent">
+                            <h3 style="text-align: center; margin-bottom: 20px;">My Moviz</h3>
+                            <li>Projet réalisé pendant ma formation</li>
+                            <li>React</li>
+                            <li>Express</li>
+                            <li>React Strap</li>
+                            <li>API The Movie DB</li>   
+                            <li>Mongo DB</li>   
+                            <a href="https://github.com/Tarnof-Code/myMoviz"
+                            target="_blank">
+                            <p style="text-align:center;margin-top: 20px;font-size: 20px;" >Voir le code</p>
+                            </a>                     
+                        </div>
+                    </div>        
+                <!--myMoviz -->
+                <!--weatherApp --> 
+                    <div id="overlayMore6" onclick="offMore6()">
+                        <div class="moreContent">
+                            <h3 style="text-align: center; margin-bottom: 20px;">Weather App</h3>
+                            <li>Projet réalisé pendant ma formation</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>
+                            <li>Intégration d'une map</li>   
+                            <li>API Open Weather Map</li>   
+                            <li>Mongo DB</li>
+                            <li>Librairie Leaflet</li>  
+                            <a href="https://github.com/Tarnof-Code/weatherApp"
+                            target="_blank">
+                            <p style="text-align:center;margin-top: 20px;font-size: 20px;" >Voir le code</p>
+                            </a>                   
+                        </div>
+                    </div>        
+                <!--weatherApp -->     
+            <!-- Overlays En savoir plus -->
 
-            <div class="row project-list">
 
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link"                     
-                        target="_blank"
-                        onclick="on1()">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <p>Voir la démo</p>
+            <!-- Liste des projets -->
+    
+                <div class="row project-list">
+                   
+ 
+                <!-- Life -->    
+                    <div class="col-sm-6 col-md-4 portfolio-item">
+                        <a class="portfolio-link"                     
+                            onclick="onVideo1()">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <p>Voir la démo</p>
+                                    </div>
                                 </div>
-                            </div>
-                        <img class="img-fluid" src="assets/img/portfolio/Logo-Life.png" width="400" >
-                    </a>
-                    <div class="portfolio-caption" >
-                        <h4>LIFE</h4>                                  
-                        <p class="text-muted">Application mobile pour ne plus jamais rater un vaccin ou un examen de santé</p>  
-                        <a class="portfolio-link"
-                        target="_blank"
-                        href="https://github.com/Tarnof-Code/lifeFront/">
-                            <div class="portfolio-hover-content">
-                                 <p>Voir le code</p>
-                            </div>                 
+                            <img class="img-fluid" src="assets/img/portfolio/Logo-Life.png" width="400" >
                         </a>
+                        <div class="portfolio-caption" >
+                            <h4>Life</h4>                                  
+                            <p class="text-muted" style="font-size: 14px;">Application mobile pour la gestion de ses examens de santé</p>                         
+                            <a  class="portfolio-link"
+                                onclick="onMore1()">
+                                <p>En savoir plus</p>              
+                            </a>
+                        
+                        </div>
                     </div>
-                </div>
-        
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link"                     
-                        target="_blank"
-                        onclick="on2()">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <p>Voir la démo</p>
+                <!-- Life -->                     
+
+                <!-- Enjoy --> 
+                    <div class="col-sm-6 col-md-4 portfolio-item">
+                        <a class="portfolio-link"                     
+                            target="_blank"
+                            onclick="onVideo2()">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <p>Voir la démo</p>
+                                    </div>
                                 </div>
-                            </div>
-                        <img class="img-fluid" src="assets/img/portfolio/ecranAccueil.jpg" width="400" >
-                    </a>
-                    <div class="portfolio-caption" >
-                        <h4>ENJOY</h4>  
-                        <p class="text-muted">Application mobile pour la gestion des colonies de vacances</p>                                
+                            <img class="img-fluid" src="assets/img/portfolio/ecranAccueil.jpg" width="400" >
+                        </a>
+                        <div class="portfolio-caption" >
+                            <h4>Enjoy</h4>  
+                            <p class="text-muted" style="font-size: 14px;">Application mobile pour la gestion des colonies de vacances</p>
+                            <a  class="portfolio-link"
+                                onclick="onMore2()">
+                                <p>En savoir plus</p>              
+                            </a>                                
+                        </div>
                     </div>
-                </div>
+                <!-- Enjoy --> 
+ 
+                <!-- Portfolio -->
+                    <div class="col-sm-6 col-md-4 portfolio-item">
+                        <a class="portfolio-link"
+                            target="_blank"
+                            href="https://github.com/Tarnof-Code/portfolio">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><p>Voir le code</p></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/portfolio.png">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Mon portfolio</h4>
+                            <p class="text-muted" style="font-size: 14px;">Site sur le quel vous vous trouvez actuellement !
+                                <br>Réalisé en HTML, CSS, Javascript</p>
+                                <a  class="portfolio-link"
+                                onclick="onMore3()">
+                                <p>En savoir plus</p>              
+                                </a>
+                        </div>
+                    </div>
+                <!-- Portfolio -->
 
+                <!-- BikeShop -->
+                    <div class="col-sm-6 col-md-4 portfolio-item">
+                        <a class="portfolio-link"
+                            target="_blank"
+                            href="https://tarnof-bikeshop.herokuapp.com/">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><p>Voir le site</p></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/bikeShop.png">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Bike Shop</h4>
+                            <p class="text-muted" style="font-size: 14px;">Site de e-commerce
+                                <br>Vente de vélos
+                            </p>
+                            <a  class="portfolio-link"
+                            onclick="onMore4()">
+                            <p>En savoir plus</p>              
+                            </a>
+                        </div>
+                    </div>
+                <!-- BikeShop -->
 
+                <!-- My Moziz -->
+                    <div class="col-sm-6 col-md-4 portfolio-item">
+                        <a class="portfolio-link"
+                            target="_blank"
+                            href="https://tarnof-mymoviz.herokuapp.com/">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><p>Voir le site</p></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/myMoviz.png">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>My Moviz</h4>
+                            <p class="text-muted" style="font-size: 14px;">
+                                Site qui permet d’afficher les films les plus populaires du moment                               
+                            </p>
+                            <a  class="portfolio-link"
+                                onclick="onMore5()">
+                                <p>En savoir plus</p>              
+                            </a>
+                        </div>
+                    </div>
+                <!-- My Moviz -->
 
-                <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link"
-                        href="https://piedagnellaura.github.io/jeu-du-morpion/">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><p>Découvrir</p></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/morpion.png">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Jeu du morpion</h4>
-                        <p class="text-muted">Réalisé en Javascript</p>
+                <!-- weatherApp -->
+                    <div class="col-sm-6 col-md-4 portfolio-item">
+                        <a class="portfolio-link"
+                            target="_blank"
+                            href="https://tarnof-weatherapp.herokuapp.com/">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><p>Voir le site<br><span style="font-size:12px;">
+                                    Identififiants pour le sign-in : <br>
+                                    email : john@doe.com <br>
+                                    mot de passe : johndoe</span></p>
+                                
+                                </div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/weatherApp.png">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Weather App</h4>
+                            <p class="text-muted" style="font-size: 14px;">
+                                Application web permettant d’afficher la météo de villes préalablement choisies.                               
+                            </p>
+                            <a  class="portfolio-link"
+                                onclick="onMore6()">
+                                <p>En savoir plus</p>              
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link"
-                        href="https://piedagnellaura.github.io/quiz-culture-g/">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><p>Découvrir</p></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/quizz.png">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Quizz Culture G</h4>
-                        <p class="text-muted">Réalisé en Javascript</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link"
-                        href="https://piedagnellaura.github.io/poudlard-characters/">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><p>Découvrir</p></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/poudlardchar.png">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Poudlard Characters</h4>
-                        <p class="text-muted">Single Page Application, une API utilisée</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link"
-                        href="https://github.com/PiedagnelLaura/malibrairie">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><p>En voir plus</p></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/librairie.png">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>MaLibrairie</h4>
-                        <p class="text-muted">Réalisé en PHP, lien vers le repo GitHub</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link"
-                    href="https://github.com/PiedagnelLaura/qualiextra">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content"><p>En voir plus</p></div>
-                    </div><img class="img-fluid" src="assets/img/portfolio/qualiextra.png">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Qualiextra</h4>
-                    <p class="text-muted">Réalisé en Symfony, avec une équipe de 4 personnes, lien vers le repo GitHub</p>
-                </div>
-            </div>
+                <!-- weatherApp -->
+              
+              
+                
             </div>
         </div>
     </section>
@@ -313,7 +472,8 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/agency.js"></script>
     <script src="assets/js/presentation.js"></script>
-    <script src="assets/js/overlay.js"></script>
+    <script src="assets/js/overlayVideo.js"></script>
+    <script src="assets/js/overlayMore.js"></script>
 </body>
 
 </html>
