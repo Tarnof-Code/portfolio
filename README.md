@@ -5,7 +5,7 @@
 <li>Bootstrap</li>
 <br>
 <h3>Lien vers le site</h3>
-https://tarnof-portfolio.herokuapp.com/
+https://tarnof-code.github.io/portfolio/
 
 
 
