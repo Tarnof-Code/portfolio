@@ -189,7 +189,7 @@
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     /* min-width:10%; */
-    min-height: 20%;
+    /* min-height: 20%; */
     border-radius: 10%;
     padding: 40px;
     
