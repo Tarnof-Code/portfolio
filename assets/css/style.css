@@ -182,12 +182,12 @@
 
   .moreContent {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    /* top: 50%; */
+    /* left: 50%; */
     font-size: 17px;
     background-color: white;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
+    /* transform: translate(-50%,-50%); */
+    /* -ms-transform: translate(-50%,-50%); */
     /* min-width:10%;
     min-height: 20%; */
     border-radius: 10%;
