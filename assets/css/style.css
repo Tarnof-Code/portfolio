@@ -92,6 +92,7 @@
     background-color: rgba(0,0,0,0.8);
     z-index: 5;
     cursor: pointer;
+
   }
 
   #overlayMore2 {
@@ -181,7 +182,7 @@
   }
 
   .moreContent {
-    position: absolute;
+    /* position: absolute; */
     /* top: 50%; */
     /* left: 50%; */
     font-size: 17px;
@@ -190,8 +191,14 @@
     /* -ms-transform: translate(-50%,-50%); */
     /* min-width:10%;
     min-height: 20%; */
-    border-radius: 10%;
+    border-radius: 20%;
     padding: 40px;
+    min-height: 35%;
+    width:450px;
+    margin: auto;
+    margin-top: 200px
+    
+    ;
     
   }
 
