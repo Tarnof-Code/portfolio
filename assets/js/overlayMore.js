@@ -44,3 +44,17 @@ function onMore6() {
 function offMore6() {
     document.getElementById("overlayMore6").style.display = "none";
 }
+
+function onMore7() {
+    document.getElementById("overlayMore7").style.display = "block";
+}
+function offMore7() {
+    document.getElementById("overlayMore7").style.display = "none";
+}
+
+function onMore8() {
+    document.getElementById("overlayMore8").style.display = "block";
+}
+function offMore8() {
+    document.getElementById("overlayMore8").style.display = "none";
+}

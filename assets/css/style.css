@@ -80,6 +80,76 @@
     cursor: pointer;
   }
 
+  #overlayVideo4 {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 2%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 5;
+    cursor: pointer;
+  }
+
+  #overlayVideo5 {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 2%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 5;
+    cursor: pointer;
+  }
+
+  #overlayVideo6 {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 2%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 5;
+    cursor: pointer;
+  }
+
+  #overlayVideo7 {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 2%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 5;
+    cursor: pointer;
+  }
+
+  #overlayVideo8 {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 2%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 5;
+    cursor: pointer;
+  }
+
   #overlayMore1 {
     position: fixed;
     display: none;
@@ -165,6 +235,34 @@
     cursor: pointer;
   }
 
+  #overlayMore7 {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 2%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 5;
+    cursor: pointer;
+  }
+
+  #overlayMore8 {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 2%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 5;
+    cursor: pointer;
+  }
+
   #portfolio {
     background-color: #f7f1e3;
   }
@@ -207,8 +305,7 @@
     min-height:10rem;
  
   }
-
-
+  
 
 @keyframes devBouge {
     0% {transform: translate(5000px);}
