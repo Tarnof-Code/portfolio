@@ -2,6 +2,9 @@ const presentation = {
 
     init: function () {
 
+        var header = document.getElementById("myHeader");
+        header.style.backgroundImage = "url('assets/img/darkGrey.jpg')";
+
         let delay = 100,
             delay_start = 0,
             contents,
