@@ -1,3 +1,7 @@
+.masthead {
+  height: 50em;
+}
+
 .listSkills {
   display: flex;
   flex-wrap: wrap;
