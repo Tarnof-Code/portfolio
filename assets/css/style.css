@@ -1,3 +1,6 @@
+body {
+  font-family: "Sora", sans-serif;
+}
 .masthead {
   height: 50em;
 }
@@ -56,15 +59,14 @@
 }
 
 #portfolio .img-fluid {
-  border-radius: 40px 0 0 0; /* Vous pouvez ajuster la valeur selon vos préférences */
-  box-shadow: -4px -4px 8px rgba(0, 0, 0, 0.1), 4px -4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden; /* Pour s'assurer que l'ombre est bien visible */
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
 }
 
 #portfolio .portfolio-caption {
-  border-radius: 0 0 40px 0; /* Vous pouvez ajuster la valeur selon vos préférences */
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), -4px 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden; /* Pour s'assurer que l'ombre est bien visible */
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 #overlayVideo1 {
