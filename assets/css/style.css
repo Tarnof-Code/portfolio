@@ -55,6 +55,18 @@
   justify-content: center;
 }
 
+#portfolio .img-fluid {
+  border-radius: 40px 0 0 0; /* Vous pouvez ajuster la valeur selon vos préférences */
+  box-shadow: -4px -4px 8px rgba(0, 0, 0, 0.1), 4px -4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Pour s'assurer que l'ombre est bien visible */
+}
+
+#portfolio .portfolio-caption {
+  border-radius: 0 0 40px 0; /* Vous pouvez ajuster la valeur selon vos préférences */
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), -4px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Pour s'assurer que l'ombre est bien visible */
+}
+
 #overlayVideo1 {
   position: fixed;
   display: none;
@@ -288,6 +300,16 @@
   -ms-transform: translate(-50%, -50%);
 }
 
+.video_mobile {
+  width: 30%;
+  height: 84%;
+}
+
+.video_web {
+  width: 70%;
+  height: 70%;
+}
+
 .moreContent {
   /* position: absolute; */
   /* top: 50%; */
@@ -326,6 +348,13 @@
 @media screen and (max-width: 768px) {
   .listSkills {
     justify-content: flex-start;
+  }
+  .video_mobile {
+    width: 95%; /* Ajustez la largeur selon vos besoins pour les petits écrans */
+  }
+
+  .video_web {
+    width: 95%; /* Ajustez la largeur selon vos besoins pour les petits écrans */
   }
 }
 
