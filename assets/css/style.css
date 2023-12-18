@@ -1,6 +1,36 @@
 body {
   font-family: "Sora", sans-serif;
 }
+
+/* CSS */
+.hide-on-load {
+  display: none;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Gris clair pour la bordure */
+  border-top: 16px solid #3498db; /* Bleu pour le dessus de la bordure */
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 1s linear infinite; /* Animation de rotation */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -40px; /* La moitié de la hauteur */
+  margin-left: -40px; /* La moitié de la largeur */
+  display: none; /* Le spinner est initialement masqué */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .masthead {
   height: 50em;
 }

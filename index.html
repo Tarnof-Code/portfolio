@@ -14,549 +14,560 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/team/photoTarnofRounded.png">
 </head>
 
-<body id="accueil" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand" href=""
-                style="color: var(--bs-gray-400);font-family: Montserrat, serif;font-weight: bold;">Mon Portfolio
-            </a>
+<body>
+    <div id="loader" class="loader"></div>
+    <div id="accueil" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54" class="hide-on-load">
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href=""
+                    style="color: var(--bs-gray-400);font-family: Montserrat, serif;font-weight: bold;">Mon Portfolio
+                </a>
 
 
 
-            <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                    <a href="https://www.linkedin.com/in/nicolas-tatarinoff/" target="_blank">
-                        <i class="fa fa-linkedin" style="margin:10px"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://github.com/Tarnof-Code/" target="_blank">
-                        <i class="fa fa-github" style="margin:10px"></i>
-                    </a>
-                </li>
-            </ul>
-
-
-
-
-
-            <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation" style="background: #ffab07;">
-                <i class="fa fa-bars"></i>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto text-uppercase">
-                    <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#apropos">Qui je suis</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Mes projets</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#competences">Mes compétences</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/nicolas-tatarinoff/" target="_blank">
+                            <i class="fa fa-linkedin" style="margin:10px"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/Tarnof-Code/" target="_blank">
+                            <i class="fa fa-github" style="margin:10px"></i>
+                        </a>
+                    </li>
                 </ul>
-            </div>
 
-        </div>
-    </nav>
-    <header class="masthead" style="background-image: url('assets/img/darkGrey.jpg');">
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">
-                    <span
-                        class="animate-text text-start d-xl-flex d-xxl-flex justify-content-xl-start justify-content-xxl-start"
-                        style="color: #ffab07;">
-                    </span>
+
+
+
+
+                <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                    class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive"
+                    aria-expanded="false" aria-label="Toggle navigation" style="background: #ffab07;">
+                    <i class="fa fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto text-uppercase">
+                        <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#apropos">Qui je suis</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Mes projets</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#competences">Mes compétences</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
                 </div>
-                <div class="intro-heading text-uppercase">
-                    <span
-                        class="devweb text-center d-xl-flex d-xxl-flex justify-content-xl-start justify-content-xxl-start"
-                        style="border-color: var(--bs-orange);color: #ffffff;">CONCEPTEUR DÉVELOPPEUR
-                    </span>
 
-                    <span
-                        class="devweb text-center d-xl-flex d-xxl-flex justify-content-xl-start justify-content-xxl-start"
-                        style="border-color: var(--bs-orange);color: #ffffff;">D'APPLICATIONS
-
-                    </span>
-                </div>
             </div>
-        </div>
-    </header>
-    <section id="apropos">
-        <div class="container">
-            <div class="row">
-                <div class="col d-xxl-flex">
-                    <div class="row d-xxl-flex justify-content-xxl-center align-items-xxl-center">
-                        <div class="col-sm-6" style="margin-bottom: 20px;">
-                            <img class="rounded-circle d-flex flex-row mx-auto" src="assets/img/team/photoTarnof.jpg"
-                                style="width: 300px;height: 300px;">
-                        </div>
-                        <div class="col-md-6 mx-auto">
-                            <div class="text-center-sm">
-                                <h2 class="text-uppercase section-heading " style="margin-bottom: 30px;">Qui je suis
-                                </h2>
-                            </div>
-                            <p><span style="color: rgb(134, 142, 150);">Bonjour,&nbsp; je m’appelle Nicolas, j’ai 42 ans
-                                    et après 20 ans de carrière dans le milieu de l'animation socio-éducative, je suis
-                                    en reconversion dans le
-                                    développement web et mobile
-                                    depuis septembre 2021.
-                                    <br><br>
-                                    Passionné par la technologie et fort d'une expertise en organisation, gestion
-                                    et management
-                                    auprès de grandes équipes, je me réoriente avec enthousiasme vers un nouveau défi en
-                                    tant que
-                                    concepteur développeur d'applications, mettant ainsi à profit mes compétences de
-                                    communication
-                                    et techniques pour créer des solutions innovantes et collaboratives.
+        </nav>
+        <header class="masthead" style="background-image: url('assets/img/darkGrey.jpg');">
+            <div class="container">
+                <div class="intro-text">
+                    <div class="intro-lead-in">
+                        <span
+                            class="animate-text text-start d-xl-flex d-xxl-flex justify-content-xl-start justify-content-xxl-start"
+                            style="color: #ffab07;">
+                        </span>
+                    </div>
+                    <div class="intro-heading text-uppercase">
+                        <span
+                            class="devweb text-center d-xl-flex d-xxl-flex justify-content-xl-start justify-content-xxl-start"
+                            style="border-color: var(--bs-orange);color: #ffffff;">CONCEPTEUR DÉVELOPPEUR
+                        </span>
 
-                                    <br><br>
+                        <span
+                            class="devweb text-center d-xl-flex d-xxl-flex justify-content-xl-start justify-content-xxl-start"
+                            style="border-color: var(--bs-orange);color: #ffffff;">D'APPLICATIONS
 
-                                    Vous retrouverez ici quelques projets que j’ai développés.
-                                    <br><br>
-                                    Vous pouvez télécharger mon CV au format PDF :<br>
-                                    <a href="assets/img/portfolio/CV_TATARINOF_NICOLAS_concepteur_développeur_spring_react.pdf"
-                                        download>
-                                        <i class="fa-solid fa-download"></i>
-                                        En cliquant ici
-                                    </a>
-                                </span></p>
-                        </div>
+                        </span>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </header>
+        <section id="apropos">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-xxl-flex">
+                        <div class="row d-xxl-flex justify-content-xxl-center align-items-xxl-center">
+                            <div class="col-sm-6" style="margin-bottom: 20px;">
+                                <img class="rounded-circle d-flex flex-row mx-auto"
+                                    src="assets/img/team/photoTarnof.jpg" style="width: 300px;height: 300px;">
+                            </div>
+                            <div class="col-md-6 mx-auto">
+                                <div class="text-center-sm">
+                                    <h2 class="text-uppercase section-heading " style="margin-bottom: 30px;">Qui je suis
+                                    </h2>
+                                </div>
+                                <p><span style="color: rgb(134, 142, 150);">Bonjour,&nbsp; je m’appelle Nicolas, j’ai 42
+                                        ans
+                                        et après 20 ans de carrière dans le milieu de l'animation socio-éducative, je
+                                        suis
+                                        en reconversion dans le
+                                        développement web et mobile
+                                        depuis septembre 2021.
+                                        <br><br>
+                                        Passionné par la technologie et fort d'une expertise en organisation, gestion
+                                        et management
+                                        auprès de grandes équipes, je me réoriente avec enthousiasme vers un nouveau
+                                        défi en
+                                        tant que
+                                        concepteur développeur d'applications, mettant ainsi à profit mes compétences de
+                                        communication
+                                        et techniques pour créer des solutions innovantes et collaboratives.
 
+                                        <br><br>
 
-    <section id="portfolio">
-        <div class="container">
-            <div class="row ">
-                <div class="col-lg-12 text-center" style="margin-bottom:50px">
-                    <h2 class="text-uppercase section-heading">Mes projets</h2>
-                </div>
-            </div>
-
-            <!-- Overlays video -->
-            <!--Life -->
-            <div id="overlayVideo1" onclick="offVideo1()">
-                <video class="video video_mobile" controls>
-                    <source
-                        src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1663149567/Life_D%C3%A9mo_jr5xyp.mp4"
-                        type=video/mp4>
-                </video>
-            </div>
-            <!--Life -->
-            <!--Enjoy -->
-            <div id="overlayVideo2" onclick="offVideo2()">
-                <video class="video video_mobile" controls>
-                    <source
-                        src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1663231939/D%C3%A9mo_Enjoy_kobtm5.mp4"
-                        type=video/mp4>
-                </video>
-            </div>
-            <!--Enjoy -->
-            <!--BikeShop -->
-            <div id="overlayVideo4" onclick="offVideo4()">
-                <video class="video video_web" controls>
-                    <source
-                        src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1687000834/BikeShop_-_Home_-_Google_Chrome_2023-06-17_12-55-33_c8vbwy.mp4"
-                        type=video/mp4>
-                </video>
-            </div>
-            <!--BikeShop -->
-            <!--Mymoviz -->
-            <div id="overlayVideo5" onclick="offVideo5()">
-                <video class="video video_web" controls>
-                    <source
-                        src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1687002606/React_App_-_Google_Chrome_2023-06-17_13-39-59_dpuj03.mp4"
-                        type=video/mp4>
-                </video>
-            </div>
-            <!--Mymoviz -->
-            <!--WeatherApp -->
-            <div id="overlayVideo6" onclick="offVideo6()">
-                <video class="video video_web" controls>
-                    <source
-                        src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1687003883/WeatherApp_-_Google_Chrome_2023-06-17_13-57-26_ks3ttm.mp4"
-                        type=video/mp4>
-                </video>
-            </div>
-            <!--WeatherAppviz -->
-            <!--PictoPicto -->
-            <div id="overlayVideo7" onclick="offVideo7()">
-                <video class="video video_web" controls>
-                    <source
-                        src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1687009305/Page_Echanges_-_Google_Chrome_2023-06-17_15-29-42_jlyur8.mp4"
-                        type=video/mp4>
-                </video>
-            </div>
-            <!--PictoPicto -->
-            <!--Domes -->
-            <div id="overlayVideo8" onclick="offVideo8()">
-                <video class="video video_web" controls>
-                    <source
-                        src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1687010656/Accueil_-_Google_Chrome_2023-06-17_15-54-28_du6loy.mp4"
-                        type=video/mp4>
-                </video>
-            </div>
-            <!--Domes -->
-            <!-- Overlays video -->
-
-
-            <!-- Overlays En savoir plus -->
-            <!--Life -->
-            <div id="overlayMore1" onclick="offMore1()">
-                <div class="moreContent">
-                    <h3 style="text-align: center; margin-bottom: 20px;">Life</h3>
-                    <li>Application mobile</li>
-                    <li>Projet de fin de formation</li>
-                    <li>Equipe de 4 personnes</li>
-                    <li>Réalisée en 10 jours</li>
-                    <li>React Native</li>
-                    <li>Express.JS</li>
-                    <li>Mongo DB</li>
-                    <a href="https://github.com/Tarnof-Code/lifeFront" target="_blank">
-                        <p style="text-align:center;margin-top: 20px;font-size: 20px;">Voir le code</p>
-                    </a>
-                </div>
-            </div>
-            <!--Life -->
-            <!--Enjoy -->
-            <div id="overlayMore2" onclick="offMore2()">
-                <div class="moreContent">
-                    <h3 style="text-align: center; margin-bottom: 20px;">Enjoy</h3>
-                    <li>Application mobile</li>
-                    <li>Projet personnel</li>
-                    <li>React Native</li>
-                    <li>Express.JS</li>
-                    <li>Google Sheets API</li>
-                </div>
-            </div>
-            <!--portfolio -->
-            <div id="overlayMore3" onclick="offMore3()">
-                <div class="moreContent">
-                    <h3 style="text-align: center; margin-bottom: 20px;">Mon portfolio</h3>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>Bootstrap</li>
-                </div>
-            </div>
-            <!--portfolio -->
-            <!--bikeShop -->
-            <div id="overlayMore4" onclick="offMore4()">
-                <div class="moreContent">
-                    <h3 style="text-align: center; margin-bottom: 20px;">Bike Shop</h3>
-                    <li>Réalisé pendant ma formation</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Express.JS</li>
-                    <li>Bootstrap</li>
-                    <li>Stripe</li>
-                    <a href="https://github.com/Tarnof-Code/bikeShop" target="_blank">
-                        <p style="text-align:center;margin-top: 20px;font-size: 20px;">Voir le code</p>
-                    </a>
-                </div>
-            </div>
-            <!--bikeShop -->
-            <!--myMoviz -->
-            <div id="overlayMore5" onclick="offMore5()">
-                <div class="moreContent">
-                    <h3 style="text-align: center; margin-bottom: 20px;">My Moviz</h3>
-                    <li>Réalisé pendant ma formation</li>
-                    <li>React</li>
-                    <li>Express</li>
-                    <li>React Strap</li>
-                    <li>API The Movie DB</li>
-                    <li>Mongo DB</li>
-                    <a href="https://github.com/Tarnof-Code/myMoviz" target="_blank">
-                        <p style="text-align:center;margin-top: 20px;font-size: 20px;">Voir le code</p>
-                    </a>
-                </div>
-            </div>
-            <!--myMoviz -->
-            <!--weatherApp -->
-            <div id="overlayMore6" onclick="offMore6()">
-                <div class="moreContent">
-                    <h3 style="text-align: center; margin-bottom: 20px;">Weather App</h3>
-                    <li>Réalisé pendant ma formation</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                    <li>Intégration d'une map</li>
-                    <li>API Open Weather Map</li>
-                    <li>Mongo DB</li>
-                    <li>Librairie Leaflet</li>
-                    <a href="https://github.com/Tarnof-Code/weatherApp" target="_blank">
-                        <p style="text-align:center;margin-top: 20px;font-size: 20px;">Voir le code</p>
-                    </a>
-                </div>
-            </div>
-            <!--weatherApp -->
-            <!--PictoPicto -->
-            <div id="overlayMore7" onclick="offMore7()">
-                <div class="moreContent">
-                    <h3 style="text-align: center; margin-bottom: 20px;">Picto Picto</h3>
-                    <li>Projet de stage</li>
-                    <li>Spring Boot</li>
-                    <li>Thymeleaf</li>
-                    <li>Système de drag and drop</li>
-                    <li>Algorithme de grammaire et de conjugaison française (javascript)</li>
-                    <li>Spring Security</li>
-                    <li>Spring Data JPA</li>
-                    <li>MySQL</li>
-                    <a href="https://github.com/Tarnof-Code/pictopro" target="_blank">
-                        <p style="text-align:center;margin-top: 20px;font-size: 20px;">Voir le code</p>
-                    </a>
-                </div>
-            </div>
-            <!--PictoPicto -->
-            <!--Domes -->
-            <div id="overlayMore8" onclick="offMore8()">
-                <div class="moreContent">
-                    <h3 style="text-align: center; margin-bottom: 20px;">Domes Services</h3>
-                    <li>Projet de formation</li>
-                    <li>Spring Boot</li>
-                    <li>JSP</li>
-                    <li>Spring Data JPA</li>
-                    <li>MySQL</li>
-                    <a href="https://github.com/Tarnof-Code/domesSpring" target="_blank">
-                        <p style="text-align:center;margin-top: 20px;font-size: 20px;">Voir le code</p>
-                    </a>
-                </div>
-            </div>
-            <!--Domes -->
-            <!-- Overlays En savoir plus -->
-
-
-            <!-- Liste des projets -->
-
-            <div class="row project-list">
-                <!-- PictoPicto -->
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" target="_blank" onclick="onVideo7()">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <p>Voir la démo</p>
+                                        Vous retrouverez ici quelques projets que j’ai développés.
+                                        <br><br>
+                                        Vous pouvez télécharger mon CV au format PDF :<br>
+                                        <a href="assets/img/portfolio/CV_TATARINOF_NICOLAS_concepteur_développeur_spring_react.pdf"
+                                            download>
+                                            <i class="fa-solid fa-download"></i>
+                                            En cliquant ici
+                                        </a>
+                                    </span></p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/pictoPicto.jpg" width="400">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Picto Picto</h4>
-                        <p class="text-muted" style="font-size: 14px;">Application web de communication pour les enfants
-                            autistes</p>
-                        <a class="portfolio-link" onclick="onMore7()">
-                            <p>En savoir plus</p>
-                        </a>
                     </div>
                 </div>
-                <!-- PictoPicto -->
-                <!-- Enjoy -->
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" target="_blank" onclick="onVideo2()">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <p>Voir la démo</p>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/portfolio/ecranAccueil.jpg" width="400">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Enjoy</h4>
-                        <p class="text-muted" style="font-size: 14px;">Application mobile pour la gestion des colonies
-                            de vacances</p>
-                        <a class="portfolio-link" onclick="onMore2()">
-                            <p>En savoir plus</p>
-                        </a>
-                    </div>
-                </div>
-                <!-- Enjoy -->
-                <!-- Life -->
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" onclick="onVideo1()">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <p>Voir la démo</p>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/portfolio/Logo-Life.png" width="400">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Life</h4>
-                        <p class="text-muted" style="font-size: 14px;">Application mobile pour la gestion de ses examens
-                            de santé</p>
-                        <a class="portfolio-link" onclick="onMore1()">
-                            <p>En savoir plus</p>
-                        </a>
-                    </div>
-                </div>
-                <!-- Life -->
-                <!-- Domes -->
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" onclick="onVideo8()">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <p>Voir la démo</p>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/portfolio/domes.png" width="400">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Domes Services</h4>
-                        <p class="text-muted" style="font-size: 14px;">Site de e-commerce <br>Vente d'animaux
-                        </p>
-                        <a class="portfolio-link" onclick="onMore8()">
-                            <p>En savoir plus</p>
-                        </a>
-                    </div>
-                </div>
-                <!-- Domes -->
-                <!-- Portfolio -->
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" target="_blank" href="https://github.com/Tarnof-Code/portfolio">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <p>Voir le code</p>
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/portfolio.png">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Mon portfolio</h4>
-                        <p class="text-muted" style="font-size: 14px;">Site sur lequel vous êtes actuellement !
-                            <br>Réalisé en HTML, CSS, Javascript
-                        </p>
-                        <a class="portfolio-link" onclick="onMore3()">
-                            <p>En savoir plus</p>
-                        </a>
-                    </div>
-                </div>
-                <!-- Portfolio -->
+            </div>
+        </section>
 
-                <!-- BikeShop -->
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" target="_blank" onclick="onVideo4()">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <p>Voir la démo</p>
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/bikeShop.png">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Bike Shop</h4>
-                        <p class="text-muted" style="font-size: 14px;">Site de e-commerce
-                            <br>Vente de vélos
-                        </p>
-                        <a class="portfolio-link" onclick="onMore4()">
-                            <p>En savoir plus</p>
+
+        <section id="portfolio">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-12 text-center" style="margin-bottom:50px">
+                        <h2 class="text-uppercase section-heading">Mes projets</h2>
+                    </div>
+                </div>
+
+                <!-- Overlays video -->
+                <!--Life -->
+                <div id="overlayVideo1" onclick="offVideo1()">
+                    <video class="video video_mobile" controls>
+                        <source
+                            src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1663149567/Life_D%C3%A9mo_jr5xyp.mp4"
+                            type=video/mp4>
+                    </video>
+                </div>
+                <!--Life -->
+                <!--Enjoy -->
+                <div id="overlayVideo2" onclick="offVideo2()">
+                    <video class="video video_mobile" controls>
+                        <source
+                            src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1663231939/D%C3%A9mo_Enjoy_kobtm5.mp4"
+                            type=video/mp4>
+                    </video>
+                </div>
+                <!--Enjoy -->
+                <!--BikeShop -->
+                <div id="overlayVideo4" onclick="offVideo4()">
+                    <video class="video video_web" controls>
+                        <source
+                            src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1687000834/BikeShop_-_Home_-_Google_Chrome_2023-06-17_12-55-33_c8vbwy.mp4"
+                            type=video/mp4>
+                    </video>
+                </div>
+                <!--BikeShop -->
+                <!--Mymoviz -->
+                <div id="overlayVideo5" onclick="offVideo5()">
+                    <video class="video video_web" controls>
+                        <source
+                            src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1687002606/React_App_-_Google_Chrome_2023-06-17_13-39-59_dpuj03.mp4"
+                            type=video/mp4>
+                    </video>
+                </div>
+                <!--Mymoviz -->
+                <!--WeatherApp -->
+                <div id="overlayVideo6" onclick="offVideo6()">
+                    <video class="video video_web" controls>
+                        <source
+                            src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1687003883/WeatherApp_-_Google_Chrome_2023-06-17_13-57-26_ks3ttm.mp4"
+                            type=video/mp4>
+                    </video>
+                </div>
+                <!--WeatherAppviz -->
+                <!--PictoPicto -->
+                <div id="overlayVideo7" onclick="offVideo7()">
+                    <video class="video video_web" controls>
+                        <source
+                            src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1687009305/Page_Echanges_-_Google_Chrome_2023-06-17_15-29-42_jlyur8.mp4"
+                            type=video/mp4>
+                    </video>
+                </div>
+                <!--PictoPicto -->
+                <!--Domes -->
+                <div id="overlayVideo8" onclick="offVideo8()">
+                    <video class="video video_web" controls>
+                        <source
+                            src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1687010656/Accueil_-_Google_Chrome_2023-06-17_15-54-28_du6loy.mp4"
+                            type=video/mp4>
+                    </video>
+                </div>
+                <!--Domes -->
+                <!-- Overlays video -->
+
+
+                <!-- Overlays En savoir plus -->
+                <!--Life -->
+                <div id="overlayMore1" onclick="offMore1()">
+                    <div class="moreContent">
+                        <h3 style="text-align: center; margin-bottom: 20px;">Life</h3>
+                        <li>Application mobile</li>
+                        <li>Projet de fin de formation</li>
+                        <li>Equipe de 4 personnes</li>
+                        <li>Réalisée en 10 jours</li>
+                        <li>React Native</li>
+                        <li>Express.JS</li>
+                        <li>Mongo DB</li>
+                        <a href="https://github.com/Tarnof-Code/lifeFront" target="_blank">
+                            <p style="text-align:center;margin-top: 20px;font-size: 20px;">Voir le code</p>
                         </a>
                     </div>
                 </div>
-                <!-- BikeShop -->
-
-                <!-- My Moziz -->
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" target="_blank" onclick="onVideo5()">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <p>Voir la démo</p>
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/myMoviz.png">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>My Moviz</h4>
-                        <p class="text-muted" style="font-size: 14px;">
-                            Site qui permet d’afficher les films les plus populaires du moment
-                        </p>
-                        <a class="portfolio-link" onclick="onMore5()">
-                            <p>En savoir plus</p>
+                <!--Life -->
+                <!--Enjoy -->
+                <div id="overlayMore2" onclick="offMore2()">
+                    <div class="moreContent">
+                        <h3 style="text-align: center; margin-bottom: 20px;">Enjoy</h3>
+                        <li>Application mobile</li>
+                        <li>Projet personnel</li>
+                        <li>React Native</li>
+                        <li>Express.JS</li>
+                        <li>Google Sheets API</li>
+                    </div>
+                </div>
+                <!--portfolio -->
+                <div id="overlayMore3" onclick="offMore3()">
+                    <div class="moreContent">
+                        <h3 style="text-align: center; margin-bottom: 20px;">Mon portfolio</h3>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Bootstrap</li>
+                    </div>
+                </div>
+                <!--portfolio -->
+                <!--bikeShop -->
+                <div id="overlayMore4" onclick="offMore4()">
+                    <div class="moreContent">
+                        <h3 style="text-align: center; margin-bottom: 20px;">Bike Shop</h3>
+                        <li>Réalisé pendant ma formation</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Express.JS</li>
+                        <li>Bootstrap</li>
+                        <li>Stripe</li>
+                        <a href="https://github.com/Tarnof-Code/bikeShop" target="_blank">
+                            <p style="text-align:center;margin-top: 20px;font-size: 20px;">Voir le code</p>
                         </a>
                     </div>
                 </div>
-                <!-- My Moviz -->
+                <!--bikeShop -->
+                <!--myMoviz -->
+                <div id="overlayMore5" onclick="offMore5()">
+                    <div class="moreContent">
+                        <h3 style="text-align: center; margin-bottom: 20px;">My Moviz</h3>
+                        <li>Réalisé pendant ma formation</li>
+                        <li>React</li>
+                        <li>Express</li>
+                        <li>React Strap</li>
+                        <li>API The Movie DB</li>
+                        <li>Mongo DB</li>
+                        <a href="https://github.com/Tarnof-Code/myMoviz" target="_blank">
+                            <p style="text-align:center;margin-top: 20px;font-size: 20px;">Voir le code</p>
+                        </a>
+                    </div>
+                </div>
+                <!--myMoviz -->
+                <!--weatherApp -->
+                <div id="overlayMore6" onclick="offMore6()">
+                    <div class="moreContent">
+                        <h3 style="text-align: center; margin-bottom: 20px;">Weather App</h3>
+                        <li>Réalisé pendant ma formation</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>Intégration d'une map</li>
+                        <li>API Open Weather Map</li>
+                        <li>Mongo DB</li>
+                        <li>Librairie Leaflet</li>
+                        <a href="https://github.com/Tarnof-Code/weatherApp" target="_blank">
+                            <p style="text-align:center;margin-top: 20px;font-size: 20px;">Voir le code</p>
+                        </a>
+                    </div>
+                </div>
+                <!--weatherApp -->
+                <!--PictoPicto -->
+                <div id="overlayMore7" onclick="offMore7()">
+                    <div class="moreContent">
+                        <h3 style="text-align: center; margin-bottom: 20px;">Picto Picto</h3>
+                        <li>Projet de stage</li>
+                        <li>Spring Boot</li>
+                        <li>Thymeleaf</li>
+                        <li>Système de drag and drop</li>
+                        <li>Algorithme de grammaire et de conjugaison française (javascript)</li>
+                        <li>Spring Security</li>
+                        <li>Spring Data JPA</li>
+                        <li>MySQL</li>
+                        <a href="https://github.com/Tarnof-Code/pictopro" target="_blank">
+                            <p style="text-align:center;margin-top: 20px;font-size: 20px;">Voir le code</p>
+                        </a>
+                    </div>
+                </div>
+                <!--PictoPicto -->
+                <!--Domes -->
+                <div id="overlayMore8" onclick="offMore8()">
+                    <div class="moreContent">
+                        <h3 style="text-align: center; margin-bottom: 20px;">Domes Services</h3>
+                        <li>Projet de formation</li>
+                        <li>Spring Boot</li>
+                        <li>JSP</li>
+                        <li>Spring Data JPA</li>
+                        <li>MySQL</li>
+                        <a href="https://github.com/Tarnof-Code/domesSpring" target="_blank">
+                            <p style="text-align:center;margin-top: 20px;font-size: 20px;">Voir le code</p>
+                        </a>
+                    </div>
+                </div>
+                <!--Domes -->
+                <!-- Overlays En savoir plus -->
 
-                <!-- weatherApp -->
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" target="_blank" onclick="onVideo6()">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <p>Voir la démo
-                                    <!--  <br><span style="font-size:12px;">
+
+                <!-- Liste des projets -->
+
+                <div class="row project-list">
+                    <!-- PictoPicto -->
+                    <div class="col-sm-6 col-md-4 portfolio-item">
+                        <a class="portfolio-link" target="_blank" onclick="onVideo7()">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <p>Voir la démo</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/pictoPicto.jpg" width="400">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Picto Picto</h4>
+                            <p class="text-muted" style="font-size: 14px;">Application web de communication pour les
+                                enfants
+                                autistes</p>
+                            <a class="portfolio-link" onclick="onMore7()">
+                                <p>En savoir plus</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- PictoPicto -->
+                    <!-- Enjoy -->
+                    <div class="col-sm-6 col-md-4 portfolio-item">
+                        <a class="portfolio-link" target="_blank" onclick="onVideo2()">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <p>Voir la démo</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/ecranAccueil.jpg" width="400">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Enjoy</h4>
+                            <p class="text-muted" style="font-size: 14px;">Application mobile pour la gestion des
+                                colonies
+                                de vacances</p>
+                            <a class="portfolio-link" onclick="onMore2()">
+                                <p>En savoir plus</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Enjoy -->
+                    <!-- Life -->
+                    <div class="col-sm-6 col-md-4 portfolio-item">
+                        <a class="portfolio-link" onclick="onVideo1()">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <p>Voir la démo</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/Logo-Life.png" width="400">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Life</h4>
+                            <p class="text-muted" style="font-size: 14px;">Application mobile pour la gestion de ses
+                                examens
+                                de santé</p>
+                            <a class="portfolio-link" onclick="onMore1()">
+                                <p>En savoir plus</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Life -->
+                    <!-- Domes -->
+                    <div class="col-sm-6 col-md-4 portfolio-item">
+                        <a class="portfolio-link" onclick="onVideo8()">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <p>Voir la démo</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/domes.png" width="400">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Domes Services</h4>
+                            <p class="text-muted" style="font-size: 14px;">Site de e-commerce <br>Vente d'animaux
+                            </p>
+                            <a class="portfolio-link" onclick="onMore8()">
+                                <p>En savoir plus</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Domes -->
+                    <!-- Portfolio -->
+                    <div class="col-sm-6 col-md-4 portfolio-item">
+                        <a class="portfolio-link" target="_blank" href="https://github.com/Tarnof-Code/portfolio">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <p>Voir le code</p>
+                                </div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/portfolio.png">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Mon portfolio</h4>
+                            <p class="text-muted" style="font-size: 14px;">Site sur lequel vous êtes actuellement !
+                                <br>Réalisé en HTML, CSS, Javascript
+                            </p>
+                            <a class="portfolio-link" onclick="onMore3()">
+                                <p>En savoir plus</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Portfolio -->
+
+                    <!-- BikeShop -->
+                    <div class="col-sm-6 col-md-4 portfolio-item">
+                        <a class="portfolio-link" target="_blank" onclick="onVideo4()">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <p>Voir la démo</p>
+                                </div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/bikeShop.png">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Bike Shop</h4>
+                            <p class="text-muted" style="font-size: 14px;">Site de e-commerce
+                                <br>Vente de vélos
+                            </p>
+                            <a class="portfolio-link" onclick="onMore4()">
+                                <p>En savoir plus</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- BikeShop -->
+
+                    <!-- My Moziz -->
+                    <div class="col-sm-6 col-md-4 portfolio-item">
+                        <a class="portfolio-link" target="_blank" onclick="onVideo5()">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <p>Voir la démo</p>
+                                </div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/myMoviz.png">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>My Moviz</h4>
+                            <p class="text-muted" style="font-size: 14px;">
+                                Site qui permet d’afficher les films les plus populaires du moment
+                            </p>
+                            <a class="portfolio-link" onclick="onMore5()">
+                                <p>En savoir plus</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- My Moviz -->
+
+                    <!-- weatherApp -->
+                    <div class="col-sm-6 col-md-4 portfolio-item">
+                        <a class="portfolio-link" target="_blank" onclick="onVideo6()">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <p>Voir la démo
+                                        <!--  <br><span style="font-size:12px;">
                                           Identififiants pour le sign-in : <br>
                                         email : john@doe.com <br>
                                         mot de passe : johndoe</span> -->
-                                </p>
+                                    </p>
 
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/weatherApp.png">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Weather App</h4>
-                        <p class="text-muted" style="font-size: 14px;">
-                            Application web permettant d’afficher la météo de villes choisies.
-                        </p>
-                        <a class="portfolio-link" onclick="onMore6()">
-                            <p>En savoir plus</p>
+                                </div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/weatherApp.png">
                         </a>
+                        <div class="portfolio-caption">
+                            <h4>Weather App</h4>
+                            <p class="text-muted" style="font-size: 14px;">
+                                Application web permettant d’afficher la météo de villes choisies.
+                            </p>
+                            <a class="portfolio-link" onclick="onMore6()">
+                                <p>En savoir plus</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- weatherApp -->
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="competences">
+            <div class="container" id="about">
+                <div class="row">
+                    <div class="col-lg-12 text-center" style="margin-bottom: 50px;">
+                        <h2 class="text-uppercase">Mes competences</h2>
                     </div>
                 </div>
-                <!-- weatherApp -->
-            </div>
-        </div>
-    </section>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="list-group timeline">
+                            <li class="list-group-item" style="margin-bottom: 20px;">
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
 
+                                        <h4 class="subheading"> <i class="fa-solid fa-code"></i> Compétences techniques
+                                        </h4>
+                                    </div>
+                                    <div class="listSkills">
+                                        <img class="techSkills" src="assets/img/portfolio/html.png" width="15%"
+                                            height="15%">
+                                        <img class="techSkills" src="assets/img/portfolio/css.png" width="15%"
+                                            height="15%">
+                                        <img class="techSkills" src="assets/img/portfolio/js.png" width="15%"
+                                            height="15%">
+                                        <img class="techSkills" src="assets/img/portfolio/react.jpg" width="15%"
+                                            height="15%">
+                                        <img class="techSkills" src="assets/img/portfolio/reactNative.jpg" width="15%"
+                                            height="15%">
+                                        <img class="techSkills" src="assets/img/portfolio/redux.png" width="15%"
+                                            height="15%">
+                                        <img class="techSkills" src="assets/img/portfolio/nodejs.png" width="15%"
+                                            height="15%">
+                                        <img class="techSkills" src="assets/img/portfolio/express.png" width="15%"
+                                            height="15%">
+                                        <img class="techSkills" src="assets/img/portfolio/mongo.png" width="15%"
+                                            height="15%">
+                                        <img class="techSkills" src="assets/img/portfolio/java.png" width="15%"
+                                            height="15%">
+                                        <img class="techSkills" src="assets/img/portfolio/jakartaee.png" width="15%"
+                                            height="15%">
+                                        <img class="techSkills" src="assets/img/portfolio/spring.png" width="15%"
+                                            height="15%">
+                                        <img class="techSkills" src="assets/img/portfolio/kotlin.png" width="15%"
+                                            height="15%">
+                                        <img class="techSkills" src="assets/img/portfolio/mysql.png" width="15%"
+                                            height="15%">
+                                        <img class="techSkills" src="assets/img/portfolio/docker.png" width="15%"
+                                            height="15%">
+                                        <img class="techSkills" src="assets/img/portfolio/jenkins.png" width="15%"
+                                            height="15%">
 
-
-    <section id="competences">
-        <div class="container" id="about">
-            <div class="row">
-                <div class="col-lg-12 text-center" style="margin-bottom: 50px;">
-                    <h2 class="text-uppercase">Mes competences</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-group timeline">
-                        <li class="list-group-item" style="margin-bottom: 20px;">
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-
-                                    <h4 class="subheading"> <i class="fa-solid fa-code"></i> Compétences techniques</h4>
-                                </div>
-                                <div class="listSkills">
-                                    <img class="techSkills" src="assets/img/portfolio/html.png" width="15%"
-                                        height="15%">
-                                    <img class="techSkills" src="assets/img/portfolio/css.png" width="15%" height="15%">
-                                    <img class="techSkills" src="assets/img/portfolio/js.png" width="15%" height="15%">
-                                    <img class="techSkills" src="assets/img/portfolio/react.jpg" width="15%"
-                                        height="15%">
-                                    <img class="techSkills" src="assets/img/portfolio/reactNative.jpg" width="15%"
-                                        height="15%">
-                                    <img class="techSkills" src="assets/img/portfolio/redux.png" width="15%"
-                                        height="15%">
-                                    <img class="techSkills" src="assets/img/portfolio/nodejs.png" width="15%"
-                                        height="15%">
-                                    <img class="techSkills" src="assets/img/portfolio/express.png" width="15%"
-                                        height="15%">
-                                    <img class="techSkills" src="assets/img/portfolio/mongo.png" width="15%"
-                                        height="15%">
-                                    <img class="techSkills" src="assets/img/portfolio/java.png" width="15%"
-                                        height="15%">
-                                    <img class="techSkills" src="assets/img/portfolio/jakartaee.png" width="15%"
-                                        height="15%">
-                                    <img class="techSkills" src="assets/img/portfolio/spring.png" width="15%"
-                                        height="15%">
-                                    <img class="techSkills" src="assets/img/portfolio/kotlin.png" width="15%"
-                                        height="15%">
-                                    <img class="techSkills" src="assets/img/portfolio/mysql.png" width="15%"
-                                        height="15%">
-                                    <img class="techSkills" src="assets/img/portfolio/docker.png" width="15%"
-                                        height="15%">
-                                    <img class="techSkills" src="assets/img/portfolio/jenkins.png" width="15%"
-                                        height="15%">
-
-                                    <!--         <div>HTML</div>
+                                        <!--         <div>HTML</div>
                                     <div>CSS</div>
                                     <div>JavaScript</div>
                                     <div>React</div>
@@ -572,97 +583,99 @@
                                     <div>MySQL</div>
                                     <div>Docker</div>
                                     <div>Jenkins</div> -->
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item timeline-inverted" style="margin-bottom: 20px;">
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="subheading"><i class="fa-solid fa-briefcase"></i> Gestion de projet</h4>
+                            </li>
+                            <li class="list-group-item timeline-inverted" style="margin-bottom: 20px;">
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="subheading"><i class="fa-solid fa-briefcase"></i> Gestion de projet
+                                        </h4>
+                                    </div>
+                                    <div class="text-muted">
+                                        <div>Sprint Produit</div>
+                                        <div>Tests utilisateurs</div>
+                                        <div>Storyboard</div>
+                                        <div>Wireframe</div>
+                                        <div>Mockup</div>
+                                        <div>User Stories</div>
+                                        <div>Méthode SCRUM</div>
+                                        <div>Versioning avec Git/GitHub</div>
+                                    </div>
                                 </div>
-                                <div class="text-muted">
-                                    <div>Sprint Produit</div>
-                                    <div>Tests utilisateurs</div>
-                                    <div>Storyboard</div>
-                                    <div>Wireframe</div>
-                                    <div>Mockup</div>
-                                    <div>User Stories</div>
-                                    <div>Méthode SCRUM</div>
-                                    <div>Versioning avec Git/GitHub</div>
-                                </div>
-                            </div>
-                        </li>
+                            </li>
 
-                        <li class="list-group-item" style="margin-bottom: 20px;">
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="subheading"><i class="fa-solid fa-user"></i> Soft Skills</h4>
+                            <li class="list-group-item" style="margin-bottom: 20px;">
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="subheading"><i class="fa-solid fa-user"></i> Soft Skills</h4>
+                                    </div>
+                                    <div class="text-muted">
+                                        <div>Travail en équipe</div>
+                                        <div>Capacités d'adaptation</div>
+                                        <div>Organisation</div>
+                                        <div>Rigueur</div>
+                                        <div>Persévérance</div>
+                                    </div>
                                 </div>
-                                <div class="text-muted">
-                                    <div>Travail en équipe</div>
-                                    <div>Capacités d'adaptation</div>
-                                    <div>Organisation</div>
-                                    <div>Rigueur</div>
-                                    <div>Persévérance</div>
+                            </li>
+                            <li class="list-group-item timeline-inverted" style="margin-bottom: 20px;">
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="subheading"><i class="fa-solid fa-earth-europe"></i> Langues</h4>
+                                    </div>
+                                    <div class="text-muted">
+                                        <div>Français</div>
+                                        <div>Anglais</div>
+                                        <div>Vietnamien</div>
+                                    </div>
                                 </div>
-                            </div>
+                            </li>
+                            <li class="list-group-item timeline-inverted"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="text-uppercase section-heading">Me contacter</h2>
+                        <div class="joindre">
+
+                            <a href="tel:+33625000480"><i class="fa-solid fa-phone"></i> 06 25 00 04 80</a>
+                            <a href="mailto:tarnof@hotmail.com"><i class="fa-solid fa-paper-plane"></i>
+                                tarnof@hotmail.com</a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <footer>
+            <div class="container text-center d-md-flex flex-column align-items-md-center">
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons" style="margin-bottom: 19px;margin-top: 19px;">
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/nicolas-tatarinoff/" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
                         </li>
-                        <li class="list-group-item timeline-inverted" style="margin-bottom: 20px;">
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="subheading"><i class="fa-solid fa-earth-europe"></i> Langues</h4>
-                                </div>
-                                <div class="text-muted">
-                                    <div>Français</div>
-                                    <div>Anglais</div>
-                                    <div>Vietnamien</div>
-                                </div>
-                            </div>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/Tarnof-Code/" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
                         </li>
-                        <li class="list-group-item timeline-inverted"></li>
                     </ul>
                 </div>
+                <div class="col-md-4"><span class="copyright">Copyright&nbsp;©Nicolas TATARINOFF 2023</span></div>
             </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="text-uppercase section-heading">Me contacter</h2>
-                    <div class="joindre">
-
-                        <a href="tel:+33625000480"><i class="fa-solid fa-phone"></i> 06 25 00 04 80</a>
-                        <a href="mailto:tarnof@hotmail.com"><i class="fa-solid fa-paper-plane"></i>
-                            tarnof@hotmail.com</a>
-                    </div>
-
-
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <footer>
-        <div class="container text-center d-md-flex flex-column align-items-md-center">
-            <div class="col-md-4">
-                <ul class="list-inline social-buttons" style="margin-bottom: 19px;margin-top: 19px;">
-                    <li class="list-inline-item">
-                        <a href="https://www.linkedin.com/in/nicolas-tatarinoff/" target="_blank">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://github.com/Tarnof-Code/" target="_blank">
-                            <i class="fa fa-github"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-4"><span class="copyright">Copyright&nbsp;©Nicolas TATARINOFF 2023</span></div>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <script src="https://kit.fontawesome.com/a00cbc0a23.js" crossorigin="anonymous"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/agency.js"></script>
