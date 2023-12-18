@@ -7,6 +7,10 @@ body {
   display: none;
 }
 
+.justified {
+  text-align: justify;
+}
+
 .loader {
   border: 16px solid #f3f3f3; /* Gris clair pour la bordure */
   border-top: 16px solid #3498db; /* Bleu pour le dessus de la bordure */
