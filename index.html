@@ -1,40 +1,34 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Mon Portfolio</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Calligraffitti&amp;display=swap">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/team/photoTarnofRounded.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/profile/photoTarnofRounded.png">
 </head>
-
 <body>
     <div id="loader" class="loader"></div>
     <div id="accueil" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54" class="hide-on-load">
-        <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
+        <nav class="navbar navbar-dark navbar-expand-xl fixed-top bg-dark" id="mainNav">
             <div class="container">
                 <a class="navbar-brand" href=""
                     style="color: var(--bs-gray-400);font-family: Montserrat, serif;font-weight: bold;">Mon Portfolio
                 </a>
-
-
-
                 <ul class="list-inline social-buttons">
                     <li class="list-inline-item" title="https://www.linkedin.com/in/nicolas-tatarinoff">
                         <a href="https://www.linkedin.com/in/nicolas-tatarinoff-developpeur-fullstack-java-spring-react-vue-javascript/"
                             target="_blank">
-                            <i class="fa fa-linkedin" style="margin:10px"></i>
+                            <i class="fa-brands fa-linkedin" style="margin:10px"></i>
                         </a>
                     </li>
                     <li class="list-inline-item" title="https://github.com/Tarnof-Code">
                         <a href="https://github.com/Tarnof-Code/" target="_blank">
-                            <i class="fa fa-github" style="margin:10px"></i>
+                            <i class="fa-brands fa-github" style="margin:10px"></i>
                         </a>
                     </li>
                     <li class="list-inline-item" title="06 25 00 04 80">
@@ -48,30 +42,24 @@
                         </a>
                     </li>
                 </ul>
-
-
-
-
-
                 <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                     class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive"
                     aria-expanded="false" aria-label="Toggle navigation" style="background: #ffab07;">
-                    <i class="fa fa-bars"></i>
+                    <i class="fa-solid fa-bars"></i>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto text-uppercase">
                         <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
                         <li class="nav-item"><a class="nav-link" href="#apropos">Qui je suis</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Mes Réalisations</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#competences">Mes compétences</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Réalisations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
 
             </div>
         </nav>
-        <header class="masthead" style="background-image: url('assets/img/darkGrey.jpg');">
+        <header class="masthead" style="background-image: url('images/backgrounds/darkGrey.jpg');">
             <div class="container">
                 <div class="intro-text">
                     <div class="intro-lead-in">
@@ -100,34 +88,30 @@
                         <div class="row d-xxl-flex justify-content-xxl-center align-items-xxl-center">
                             <div class="col-sm-6" style="margin-bottom: 20px;">
                                 <img class="rounded-circle d-flex flex-row mx-auto"
-                                    src="assets/img/team/photoTarnof.jpg" style="width: 300px;height: 300px;">
+                                    src="images/profile/photoTarnof.jpg" style="width: 300px;height: 300px;">
                             </div>
                             <div class="col-md-6 mx-auto">
                                 <div class="text-center-sm">
                                     <h2 class="text-uppercase section-heading " style="margin-bottom: 30px;">Qui je suis
                                     </h2>
                                 </div>
-                                <p class="justified"><span style="color: rgb(134, 142, 150);">Développeur fullstack
-                                        passionné
-                                        par la technologie, j’ai 20 ans d’expérience dans l’animation socio-éducative,
-                                        où j’ai acquis
-                                        des compétences en organisation, gestion et management de grandes équipes.
-                                        Depuis septembre 2021,
-                                        je me consacre à la création de solutions innovantes et collaboratives, en
-                                        utilisant mes
-                                        talents de communication et mes connaissances techniques.
-
+                                <p class="justified">
+                                    <span style="color: rgb(134, 142, 150);"> 
+                                        Développeur fullstack avec des expériences en ESN, startup et projets
+                                        entrepreneuriaux. Spécialisé dans la conception et l’évolution d’applications,
+                                        je m’appuie sur 13 ans d’expérience en management pour apporter rigueur,
+                                        organisation et esprit collaboratif aux projets techniques.                           
                                         <br><br>
-
-                                        Vous retrouverez ici quelques projets que j’ai développés.
+                                        Vous retrouverez ici quelques uns de mes projets personnels.
                                         <br><br>
                                         Vous pouvez télécharger mon CV au format PDF :<br>
-                                        <a href="assets/img/portfolio/CV_TATARINOF_NICOLAS_développeur_fullstack_java_react.pdf"
+                                        <a href="images/documents/CV_Nicolas_TATARINOFF_DEV_JAVA_JAVASCRIPT.pdf"
                                             download>
                                             <i class="fa-solid fa-download"></i>
                                             En cliquant ici
                                         </a>
-                                    </span></p>
+                                    </span>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -141,9 +125,9 @@
                         <h2 class="text-uppercase section-heading">Mes réalisations</h2>
                     </div>
                 </div>
-                <!-- Overlays video -->
+            <!-- Overlays video -->
                 <!--Life -->
-                <div id="overlayVideo1" onclick="offVideo1()">
+                <div class="overlayVideo" id="overlayVideoLife" onclick="offVideo('Life')">
                     <video class="video video_mobile" controls>
                         <source
                             src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1663149567/Life_D%C3%A9mo_jr5xyp.mp4"
@@ -152,7 +136,7 @@
                 </div>
                 <!--Life -->
                 <!--Enjoy -->
-                <div id="overlayVideo2" onclick="offVideo2()">
+                <div class="overlayVideo" id="overlayVideoEnjoy" onclick="offVideo('Enjoy')">
                     <video class="video video_mobile" controls>
                         <source
                             src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1663231939/D%C3%A9mo_Enjoy_kobtm5.mp4"
@@ -161,7 +145,7 @@
                 </div>
                 <!--Enjoy -->
                 <!--PictoPicto -->
-                <div id="overlayVideo7" onclick="offVideo7()">
+                <div class="overlayVideo" id="overlayVideoPictoPicto" onclick="offVideo('PictoPicto')">
                     <video class="video video_web" controls>
                         <source
                             src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1687009305/Page_Echanges_-_Google_Chrome_2023-06-17_15-29-42_jlyur8.mp4"
@@ -170,7 +154,7 @@
                 </div>
                 <!--PictoPicto -->
                 <!--Domes -->
-                <div id="overlayVideo8" onclick="offVideo8()">
+                <div class="overlayVideo" id="overlayVideoDomes" onclick="offVideo('Domes')">
                     <video class="video video_web" controls>
                         <source
                             src="https://res.cloudinary.com/dqt3m8u8y/video/upload/v1687010656/Accueil_-_Google_Chrome_2023-06-17_15-54-28_du6loy.mp4"
@@ -178,12 +162,10 @@
                     </video>
                 </div>
                 <!--Domes -->
-                <!-- Overlays video -->
-
-
-                <!-- Overlays En savoir plus -->
+            <!-- Overlays video -->
+            <!-- Overlays En savoir plus -->
                 <!--Life -->
-                <div id="overlayMore1" onclick="offMore1()">
+                <div class="overlayMore" id="overlayMoreLife" onclick="offMore('Life')">
                     <div class="moreContent">
                         <h3 style="text-align: center; margin-bottom: 20px;">Life</h3>
                         <li>Application mobile</li>
@@ -200,7 +182,7 @@
                 </div>
                 <!--Life -->
                 <!--Enjoy -->
-                <div id="overlayMore2" onclick="offMore2()">
+                <div class="overlayMore" id="overlayMoreEnjoy" onclick="offMore('Enjoy')">
                     <div class="moreContent">
                         <h3 style="text-align: center; margin-bottom: 20px;">Enjoy</h3>
                         <li>Application mobile</li>
@@ -208,10 +190,13 @@
                         <li>React Native</li>
                         <li>Express.JS</li>
                         <li>Google Sheets API</li>
+                        <a href="https://github.com/Tarnof-Code/enjoyFront" target="_blank">
+                            <p style="text-align:center;margin-top: 20px;font-size: 20px;">Voir le code</p>
+                        </a>
                     </div>
                 </div>
                 <!--portfolio -->
-                <div id="overlayMore3" onclick="offMore3()">
+                <div class="overlayMore" id="overlayMorePortfolio" onclick="offMore('Portfolio')">
                     <div class="moreContent">
                         <h3 style="text-align: center; margin-bottom: 20px;">Mon portfolio</h3>
                         <li>HTML</li>
@@ -222,7 +207,7 @@
                 </div>
                 <!--portfolio -->
                 <!--PictoPicto -->
-                <div id="overlayMore7" onclick="offMore7()">
+                <div class="overlayMore" id="overlayMorePictoPicto" onclick="offMore('PictoPicto')">
                     <div class="moreContent">
                         <h3 style="text-align: center; margin-bottom: 20px;">Picto Picto</h3>
                         <li>Projet de stage</li>
@@ -240,7 +225,7 @@
                 </div>
                 <!--PictoPicto -->
                 <!--Domes -->
-                <div id="overlayMore8" onclick="offMore8()">
+                <div class="overlayMore" id="overlayMoreDomes" onclick="offMore('Domes')">
                     <div class="moreContent">
                         <h3 style="text-align: center; margin-bottom: 20px;">Domes Services</h3>
                         <li>Projet de formation</li>
@@ -254,48 +239,81 @@
                     </div>
                 </div>
                 <!--Domes -->
-                <!-- Overlays En savoir plus -->
-
-
-                <!-- Liste des projets -->
+                <!--Enjoy Web -->
+                <div class="overlayMore" id="overlayMoreEnjoyWeb" onclick="offMore('EnjoyWeb')">
+                    <div class="moreContent">
+                        <h3 style="text-align: center; margin-bottom: 20px;">Enjoy (application web)</h3>
+                        <li>Projet personnel</li>
+                        <li>Frontend en React</li>
+                        <li>Backend en Java Spring</li>
+                        <li>Base de données en MySQL</li>
+                        <a href="https://github.com/Tarnof-Code/enjoyApplicationWeb" target="_blank">
+                            <p style="text-align:center;margin-top: 20px;font-size: 20px;">Voir le code</p>
+                        </a>
+                    </div>
+                </div>
+                <!--Enjoy Web -->
+            <!-- Overlays En savoir plus -->
+            <!-- Liste des projets -->
                 <div class="row project-list">
+                    <!-- Enjoy Web -->
+                    <div class="col-sm-6 col-md-4 portfolio-item">
+                        <a class="portfolio-link">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <p>En cours de création</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/projects/enjoyWebApp.png" width="400">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Enjoy (application web)</h4>
+                            <p class="text-muted" style="font-size: 14px;">
+                                Application web pour la gestion des colonies de vacances
+                            </p>
+                            <a class="portfolio-link" onclick="onMore('EnjoyWeb')">
+                                <p>En savoir plus</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Enjoy Web -->
                     <!-- PictoPicto -->
                     <div class="col-sm-6 col-md-4 portfolio-item">
-                        <a class="portfolio-link" target="_blank" onclick="onVideo7()">
+                            <a class="portfolio-link" target="_blank" onclick="onVideo('PictoPicto')">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
                                     <p>Voir la démo</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/pictoPicto.jpg" width="400">
+                            <img class="img-fluid" src="images/projects/pictoPicto.jpg" width="400">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Picto Picto</h4>
                             <p class="text-muted" style="font-size: 14px;">Application web de communication pour les
                                 enfants
                                 autistes</p>
-                            <a class="portfolio-link" onclick="onMore7()">
+                            <a class="portfolio-link" onclick="onMore('PictoPicto')">
                                 <p>En savoir plus</p>
                             </a>
                         </div>
                     </div>
                     <!-- PictoPicto -->
-                    <!-- Enjoy -->
+                    <!-- Enjoy Mobile -->
                     <div class="col-sm-6 col-md-4 portfolio-item">
-                        <a class="portfolio-link" target="_blank" onclick="onVideo2()">
+                        <a class="portfolio-link" target="_blank" onclick="onVideo('Enjoy')">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
                                     <p>Voir la démo</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/ecranAccueil.jpg" width="400">
+                            <img class="img-fluid" src="images/projects/ecranAccueil.jpg" width="400">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Enjoy</h4>
+                            <h4>Enjoy (application mobile)</h4>
                             <p class="text-muted" style="font-size: 14px;">Application mobile pour la gestion des
                                 colonies
                                 de vacances</p>
-                            <a class="portfolio-link" onclick="onMore2()">
+                            <a class="portfolio-link" onclick="onMore('Enjoy')">
                                 <p>En savoir plus</p>
                             </a>
                         </div>
@@ -303,20 +321,20 @@
                     <!-- Enjoy -->
                     <!-- Life -->
                     <div class="col-sm-6 col-md-4 portfolio-item">
-                        <a class="portfolio-link" onclick="onVideo1()">
+                        <a class="portfolio-link" onclick="onVideo('Life')">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
                                     <p>Voir la démo</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/Logo-Life.png" width="400">
+                            <img class="img-fluid" src="images/projects/Logo-Life.png" width="400">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Life</h4>
                             <p class="text-muted" style="font-size: 14px;">Application mobile pour la gestion de ses
                                 examens
                                 de santé</p>
-                            <a class="portfolio-link" onclick="onMore1()">
+                            <a class="portfolio-link" onclick="onMore('Life')">
                                 <p>En savoir plus</p>
                             </a>
                         </div>
@@ -324,19 +342,19 @@
                     <!-- Life -->
                     <!-- Domes -->
                     <div class="col-sm-6 col-md-4 portfolio-item">
-                        <a class="portfolio-link" onclick="onVideo8()">
+                        <a class="portfolio-link" onclick="onVideo('Domes')">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
                                     <p>Voir la démo</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/domes.png" width="400">
+                            <img class="img-fluid" src="images/projects/domes.png" width="400">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Domes Services</h4>
                             <p class="text-muted" style="font-size: 14px;">Site de e-commerce <br>Vente d'animaux
                             </p>
-                            <a class="portfolio-link" onclick="onMore8()">
+                            <a class="portfolio-link" onclick="onMore('Domes')">
                                 <p>En savoir plus</p>
                             </a>
                         </div>
@@ -349,21 +367,21 @@
                                 <div class="portfolio-hover-content">
                                     <p>Voir le code</p>
                                 </div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/portfolio.png">
+                            </div><img class="img-fluid" src="images/projects/portfolio.png">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Mon portfolio</h4>
                             <p class="text-muted" style="font-size: 14px;">Site sur lequel vous êtes actuellement !
                                 <br>Réalisé en HTML, CSS, Javascript
                             </p>
-                            <a class="portfolio-link" onclick="onMore3()">
+                            <a class="portfolio-link" onclick="onMore('Portfolio')">
                                 <p>En savoir plus</p>
                             </a>
                         </div>
                     </div>
                     <!-- Portfolio -->
                 </div>
-                <!-- Liste des projets -->
+            <!-- Liste des projets -->
             </div>
         </section>
         <section id="competences">
@@ -380,42 +398,34 @@
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
 
-                                        <h4 class="subheading"> <i class="fa-solid fa-code"></i> Compétences techniques
+                                        <h4 class="subheading"> <i class="fa-solid fa-code"></i> Stack technique
                                         </h4>
                                     </div>
                                     <div class="listSkills">
-                                        <img class="techSkills" src="assets/img/portfolio/html.png" width="15%"
+                                        <img class="techSkills" src="images/technologies/vue.jpg" width="15%"
                                             height="15%">
-                                        <img class="techSkills" src="assets/img/portfolio/css.png" width="15%"
+                                        <img class="techSkills" src="images/technologies/spring.png" width="15%"
+                                            height="15%">  
+                                        <img class="techSkills" src="images/technologies/react.jpg" width="15%"
+                                            height="15%">  
+                                        <img class="techSkills" src="images/technologies/express.png" width="15%"
+                                            height="15%">                                                          
+                                        <img class="techSkills" src="images/technologies/html.png" width="15%"
                                             height="15%">
-                                        <img class="techSkills" src="assets/img/portfolio/js.png" width="15%"
+                                        <img class="techSkills" src="images/technologies/css.png" width="15%"
                                             height="15%">
-                                        <img class="techSkills" src="assets/img/portfolio/react.jpg" width="15%"
+                                        <img class="techSkills" src="images/technologies/js.png" width="15%"
                                             height="15%">
-                                        <img class="techSkills" src="assets/img/portfolio/reactNative.jpg" width="15%"
-                                            height="15%">
-                                        <img class="techSkills" src="assets/img/portfolio/redux.png" width="15%"
-                                            height="15%">
-                                        <img class="techSkills" src="assets/img/portfolio/nodejs.png" width="15%"
-                                            height="15%">
-                                        <img class="techSkills" src="assets/img/portfolio/express.png" width="15%"
-                                            height="15%">
-                                        <img class="techSkills" src="assets/img/portfolio/mongo.png" width="15%"
-                                            height="15%">
-                                        <img class="techSkills" src="assets/img/portfolio/java.png" width="15%"
-                                            height="15%">
-                                        <img class="techSkills" src="assets/img/portfolio/jakartaee.png" width="15%"
-                                            height="15%">
-                                        <img class="techSkills" src="assets/img/portfolio/spring.png" width="15%"
-                                            height="15%">
-                                        <img class="techSkills" src="assets/img/portfolio/kotlin.png" width="15%"
-                                            height="15%">
-                                        <img class="techSkills" src="assets/img/portfolio/mysql.png" width="15%"
-                                            height="15%">
-                                        <img class="techSkills" src="assets/img/portfolio/docker.png" width="15%"
-                                            height="15%">
-                                        <img class="techSkills" src="assets/img/portfolio/jenkins.png" width="15%"
-                                            height="15%">
+                                        <img class="techSkills" src="images/technologies/typescript.svg" width="15%"
+                                            height="15%">      
+                                        <img class="techSkills" src="images/technologies/java.png" width="15%"
+                                            height="15%">                                          
+                                        <img class="techSkills" src="images/technologies/nodejs.png" width="15%"
+                                            height="15%">                                       
+                                        <img class="techSkills" src="images/technologies/mongo.png" width="15%"
+                                            height="15%">                           
+                                        <img class="techSkills" src="images/technologies/mysql.png" width="15%"
+                                            height="15%">                               
                                     </div>
                                 </div>
                             </li>
@@ -470,7 +480,6 @@
                 </div>
             </div>
         </section>
-
         <section id="contact">
             <div class="container">
                 <div class="row">
@@ -490,28 +499,25 @@
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons" style="margin-bottom: 19px;margin-top: 19px;">
                         <li class="list-inline-item">
-                            <a href="https://www.linkedin.com/in/nicolas-tatarinoff-developpeur-fullstack-java-spring-react-javascript/"
+                            <a href="https://www.linkedin.com/in/nicolas-tatarinoff-developpeur-fullstack-java-spring-react-vue-javascript/"
                                 target="_blank">
-                                <i class="fa fa-linkedin"></i>
+                                <i class="fa-brands fa-linkedin"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
                             <a href="https://github.com/Tarnof-Code/" target="_blank">
-                                <i class="fa fa-github"></i>
+                                <i class="fa-brands fa-github"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4"><span class="copyright">Copyright&nbsp;©Nicolas TATARINOFF 2024</span></div>
+                <div class="col-md-4"><span class="copyright">Copyright&nbsp;©Nicolas TATARINOFF 2025</span></div>
             </div>
         </footer>
     </div>
     <script src="https://kit.fontawesome.com/a00cbc0a23.js" crossorigin="anonymous"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/agency.js"></script>
-    <script src="assets/js/presentation.js"></script>
-    <script src="assets/js/overlayVideo.js"></script>
-    <script src="assets/js/overlayMore.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
